@@ -19,7 +19,7 @@ To get started running the system, open the notebook and ensure that you have a 
 
 Upload all videos of rugby tackles, Tackle.csv and coordinates.json to the content folder inside Google Colab. (The folder containing both the tackle videos and ground truth data 'Tackle.csv' can be accessed through this link https://drive.google.com/drive/folders/15YJ1UVApgQiuaSO7fiO_IpIZVbptqaQ5?usp=share_link).
 
-# Usage
+## Usage
 
 Begin by running OpenPose, you will need to change the following code with the name of each video. The path after "--video" will need to be changed to the path to the video you want to run OpenPose on. Also the name output mp4 on the last line will need to be changed so that you can distinguish the output files from one another.
 
@@ -33,11 +33,11 @@ Begin by running OpenPose, you will need to change the following code with the n
 
 Run all the code cells in order to run the system.
 
-# Example
+## Example
 
 ![T1frame2](https://user-images.githubusercontent.com/73236187/234690028-4ac97b58-a3b6-46bb-af48-bdabc3107161.png)
 
-# Future Work
+## Future Work
 
 A recommendation for the future of this research is to continue to use
 different methods to identify where the ball is. Using technologies like the Sportable ‘smart ball’ with accurate tracking of the ball using a GPS inside the ball could be used to bridge the gap for ball detection. This is subject to the data being available publicly, as of the time of writing this paper it is not.
@@ -63,7 +63,7 @@ Using OpenPose and a series of checks to identify and classify the risk of tackl
 potentially be employed in live game footage for the professional game to use to make referees’
 decisions quicker and safer.
 
-# Author
+## Author
 
 Adam Gilbert
 
