@@ -21,16 +21,6 @@ Upload all videos of rugby tackles, Tackle.csv and coordinates.json to the conte
 
 ## Usage
 
-Begin by running OpenPose, you will need to change the following code with the name of each video. The path after "--video" will need to be changed to the path to the video you want to run OpenPose on. Also the name output mp4 on the last line will need to be changed so that you can distinguish the output files from one another.
-
-!rm openpose.avi
-
-!cd openpose && ./build/examples/openpose/openpose.bin --video /content/T87.mp4 --write_json ./output/ --display 0  --write_video ../openpose.avi --part_candidates True
-
-#convert the result into MP4
-
-!ffmpeg -y -loglevel info -i openpose.avi outputT87.mp4  ##Change for specifc video
-
 Run all the code cells in order to run the system.
 
 ## Example
