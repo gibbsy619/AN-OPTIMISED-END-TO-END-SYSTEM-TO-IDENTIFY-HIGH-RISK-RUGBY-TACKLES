@@ -2,14 +2,7 @@
 
 ## Overview
 
-Head injury in contact-based sports is a large problem for players. Due to the high volume
-of continuous contact rugby has, making sure players are kept safe is vital. The Head Injury
-Assessment (HIA) protocol is the main way rugby keeps its players safe. However, whether
-a player is taken for a HIA is subject to bias by officials at every rugby match. Therefore,
-this paper aims to create a consistent and accurate system to detect high-risk rugby tackles
-that require a HIA. The system will consist of three models; player detection, tackle
-detection and tackle risk classification. The models will be combined to
-create an end-to-end system that can be used by rugby officials to make a safer game.
+Head injury in contact-based sports is a serious risk for players. Due to the high volume of continuous contact rugby has, making sure players are kept safe is vital. The Head Injury Assessment (HIA) protocol is the main way rugby keeps its players safe. However, whether a player is taken for an HIA is subject to bias by officials at every rugby match. Therefore, this paper aims to create a consistent and accurate system to detect high-risk rugby tackles that require an HIA. The system will consist of three models: player detection, tackle detection and tackle risk classification. The models will be combined to create an end-to-end system that can be used by rugby officials to make a safer game. The algorithm was tested on a variety of rugby tackle videos, and a final evaluation accuracy was 71.56\%.
 
 ## Getting Started
 
