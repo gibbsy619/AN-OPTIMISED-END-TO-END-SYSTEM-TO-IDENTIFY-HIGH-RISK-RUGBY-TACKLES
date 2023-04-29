@@ -12,6 +12,8 @@ To get started running the system, open the notebook and ensure that you have a 
 
 Upload all videos of rugby tackles, Tackle.csv and coordinates.json to the content folder inside Google Colab. (The folder containing both the tackle videos and ground truth data 'Tackle.csv' can be accessed through this link https://drive.google.com/drive/folders/15YJ1UVApgQiuaSO7fiO_IpIZVbptqaQ5?usp=share_link).
 
+A folder containing the OpenPose output is also inside the same folder link named 'openpose_output'. All these files will need to be uploaded to folder 'content/openpose/output/' inside the Google Colab file. This is because OpenPose requires a CUDA capable GPU to run and Google Colab Pro is a paid online service that is able to provide the necessary hardware to run OpenPose.
+
 ## Usage
 
 Run all the code cells in order to run the system.
