@@ -8,7 +8,7 @@ Head injury in contact-based sports is a serious risk for players. Due to the hi
 
 The code is designed to run in a Google Colab enivronment. 
 
-To get started running the system, open the notebook and ensure that you have a paid Google Colab account to access more powerful GPUs. The dependencies are included in the code cells of the system. 
+To get started running the system, open the notebook and if you aren't planning on running OpenPose and using the provided OpenPose output to run the system then you can use the free verison of Google Colab without any updgraded hardware. If you want to run OpenPose then please ensure that you have a paid Google Colab account to access more powerful GPUs. The dependencies are included in the code cells of the system. 
 
 Upload all videos of rugby tackles, Tackle.csv and coordinates.json to the content folder inside Google Colab. (The folder containing both the tackle videos and ground truth data 'Tackle.csv' can be accessed through this link https://drive.google.com/drive/folders/15YJ1UVApgQiuaSO7fiO_IpIZVbptqaQ5?usp=share_link).
 
