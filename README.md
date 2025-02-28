@@ -52,5 +52,3 @@ decisions quicker and safer.
 
 Adam Gilbert
 
-Ag815@exeter.ac.uk
-
